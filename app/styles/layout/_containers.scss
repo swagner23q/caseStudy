@@ -33,7 +33,7 @@
 .overview {
   padding-top: 4% !important;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
   margin-top: 0;
   background: #364042;
   background: -webkit-linear-gradient(#364042, #505050); /* For Safari 5.1 to 6.0 */
@@ -44,16 +44,17 @@
   height: auto;
   padding-bottom: 5%!important;
   margin-bottom: 0;
+  text-shadow: 1px 1px 3px black !important;
   h1 {
     padding-bottom: 4%!important;
-    text-shadow: 2px 2px 4px black !important;
   }
 }
 .context {
   margin-top: 0;
+  // color: lighten(teal, 15%);
   padding-top: 4% !important;
   font-size: 16px;
-  text-align: center;
+  text-align: right;
   margin-top: 0;
   background: #505050;
   background: -webkit-linear-gradient(#505050, #364042); /* For Safari 5.1 to 6.0 */
@@ -63,6 +64,7 @@
   width: 100vw;
   height: auto;
   padding-bottom: 5%!important;
+  text-shadow: 1px 1px 3px black !important;
   h1 {
     padding-bottom: 4%!important;
   }
