@@ -1,4 +1,18 @@
-<h2 id="title">Welcome to Ember</h2>
+{{#md-navbar class='grey darken-4'}}
+
+  {{#link-to 'index' }}
+    {{link-to 'Linky' 'index'}}
+  {{/link-to}}
+  {{#scroll-to href="#scrolly"}}
+    Scrolly
+  {{/scroll-to}}
+  <!-- {{#link-to 'add-artist' tagName='li'}}
+    {{link-to 'Add an Artist' 'add-artist'}}
+  {{/link-to}}
+  {{#link-to 'favorites' tagName='li'}}
+    {{link-to 'My Favorites' 'favorites'}}
+  {{/link-to}} -->
+{{/md-navbar}}
 
 {{outlet}}
 

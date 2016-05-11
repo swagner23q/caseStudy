@@ -1,0 +1,28 @@
+.overview {
+  text-align: center;
+  margin-top: 0;
+  background-color: #364042;
+  width: 100vw;
+  height: auto;
+  padding-top: 1%;
+}
+
+.hex-top {
+  width: 0;
+  border-bottom: 80px solid #6C6;
+  border-left: 202px solid transparent;
+  border-right: 202px solid transparent;
+}
+
+.hex-middle {
+  width: 404px;
+  height: 160px;
+  background-color: #6C6;
+}
+
+.hex-bottom {
+  width: 0;
+  border-top: 80px solid #6C6;
+  border-left: 202px solid transparent;
+  border-right: 202px solid transparent;
+}
