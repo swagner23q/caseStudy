@@ -1,0 +1,24 @@
+%sectionSpecifics {
+  padding-top: 4% !important;
+  padding-bottom: 5%!important;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 3px lighten(black, 15%) !important;
+  width: 100vw;
+  height: auto;
+}
+%gradientGreyTop {
+  background: #505050;
+  background: -webkit-linear-gradient(#505050, #364042); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#505050, #364042); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#505050, #364042); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#505050, #364042); /* Standard syntax */
+}
+%gradientGreyBottom {
+  background: #364042;
+  background: -webkit-linear-gradient(#364042, #505050); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#364042, #505050); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#364042, #505050); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#364042, #505050); /* Standard syntax */
+}

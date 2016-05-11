@@ -11,7 +11,7 @@ html, body {
   margin-bottom: 10%;
   padding: 0;
   color: #FFF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   cursor: url("../assets/img/WoW.cur"), default;
 }
 
@@ -59,4 +59,12 @@ html, body {
 }
 .challengeText {
   line-height: 2em;
+}
+.redText {
+  color: lighten(#FF7260, 10%);
+  font-size: 1.5em;
+}
+.screen {
+  width: 75%;
+  height: auto;
 }

@@ -31,40 +31,18 @@
   font-size: 16px;
 }
 .overview {
-  padding-top: 4% !important;
-  font-size: 16px;
+  @extend %sectionSpecifics;
+  @extend %gradientGreyBottom;
   text-align: left;
-  margin-top: 0;
-  background: #364042;
-  background: -webkit-linear-gradient(#364042, #505050); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#364042, #505050); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#364042, #505050); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#364042, #505050); /* Standard syntax */
-  width: 100vw;
-  height: auto;
-  padding-bottom: 5%!important;
-  margin-bottom: 0;
-  text-shadow: 1px 1px 3px black !important;
   h1 {
     padding-bottom: 4%!important;
   }
 }
 .context {
-  margin-top: 0;
+  @extend %sectionSpecifics;
+  @extend %gradientGreyTop;
   // color: lighten(teal, 15%);
-  padding-top: 4% !important;
-  font-size: 16px;
   text-align: right;
-  margin-top: 0;
-  background: #505050;
-  background: -webkit-linear-gradient(#505050, #364042); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#505050, #364042); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#505050, #364042); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#505050, #364042); /* Standard syntax */
-  width: 100vw;
-  height: auto;
-  padding-bottom: 5%!important;
-  text-shadow: 1px 1px 3px black !important;
   h1 {
     padding-bottom: 4%!important;
   }
