@@ -1,17 +1,19 @@
-{{#md-navbar class='grey darken-4'}}
-
-  {{#link-to 'index' }}
-    {{link-to 'Linky' 'index'}}
-  {{/link-to}}
-  {{#scroll-to href="#scrolly"}}
-    Scrolly
+{{#md-navbar name='Home' class='grey darken-4'}}
+  {{#scroll-to href="#intro"}}
+    Introduction
   {{/scroll-to}}
-  <!-- {{#link-to 'add-artist' tagName='li'}}
-    {{link-to 'Add an Artist' 'add-artist'}}
-  {{/link-to}}
-  {{#link-to 'favorites' tagName='li'}}
-    {{link-to 'My Favorites' 'favorites'}}
-  {{/link-to}} -->
+  {{#scroll-to href="#overview"}}
+    Overview
+  {{/scroll-to}}
+  {{#scroll-to href="#challenge"}}
+    Challenge
+  {{/scroll-to}}
+  {{#scroll-to href="#solution"}}
+    Solution
+  {{/scroll-to}}
+  {{#scroll-to href="#results"}}
+    Results
+  {{/scroll-to}}
 {{/md-navbar}}
 
 {{outlet}}

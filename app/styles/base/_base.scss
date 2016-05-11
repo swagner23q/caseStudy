@@ -20,7 +20,7 @@ html, body {
   font-family: STXihei;
   font-size: 2.2em;
   color: #FFF;
-  letter-spacing: -8.59px;
+  letter-spacing: -3px;
   text-shadow:
         /* first layer at 1px */
         -1px -1px 0px black,
@@ -50,6 +50,10 @@ html, body {
         -3px -2px 0px #FDFDBF;
 }
 
-h5 {
+.skillz {
   text-decoration: underline;
+  font-size: 2em;
+}
+.proTitle {
+  font-size: 1em;
 }

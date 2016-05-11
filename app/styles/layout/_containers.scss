@@ -1,28 +1,69 @@
-.overview {
+.intro {
   text-align: center;
   margin-top: 0;
   background-color: #364042;
   width: 100vw;
   height: auto;
-  padding-top: 1%;
+  padding-top: 4%;
 }
 
 .hex-top {
   width: 0;
-  border-bottom: 80px solid #6C6;
-  border-left: 202px solid transparent;
-  border-right: 202px solid transparent;
+  border-bottom: 80px solid #FF7260;
+  border-left: 162px solid transparent;
+  border-right: 162px solid transparent;
 }
 
 .hex-middle {
-  width: 404px;
-  height: 160px;
-  background-color: #6C6;
+  padding-top: 4%;
+  width: 324px;
+  height: 110px;
+  background-color: #FF7260;
 }
 
 .hex-bottom {
   width: 0;
-  border-top: 80px solid #6C6;
-  border-left: 202px solid transparent;
-  border-right: 202px solid transparent;
+  border-top: 80px solid #FF7260;
+  border-left: 162px solid transparent;
+  border-right: 162px solid transparent;
+}
+.introParagraph {
+  font-size: 16px;
+}
+.overview {
+  padding-top: 4% !important;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+  background: #364042;
+  background: -webkit-linear-gradient(#364042, #505050); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#364042, #505050); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#364042, #505050); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#364042, #505050); /* Standard syntax */
+  width: 100vw;
+  height: auto;
+  padding-bottom: 5%!important;
+  margin-bottom: 0;
+  h1 {
+    padding-bottom: 4%!important;
+    text-shadow: 2px 2px 4px black !important;
+  }
+}
+.context {
+  margin-top: 0;
+  padding-top: 4% !important;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+  background: #505050;
+  background: -webkit-linear-gradient(#505050, #364042); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#505050, #364042); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#505050, #364042); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#505050, #364042); /* Standard syntax */
+  width: 100vw;
+  height: auto;
+  padding-bottom: 5%!important;
+  h1 {
+    padding-bottom: 4%!important;
+  }
 }
