@@ -9,7 +9,7 @@
 html, body {
   width: 100vw;
   margin: 0;
-  margin-bottom: 10%;
+
   padding: 0;
   color: #FFF;
   font-family: 'Raleway', sans-serif;
@@ -80,4 +80,12 @@ html, body {
 .stacker {
   display: flex;
   flex-direction: row;
+}
+.card-reveal {
+  background-color: #505050!important;
+}
+.samples {
+  border-radius: 10px;
+  margin: .5%;
+  box-shadow: 2px 2px 4px black;
 }
