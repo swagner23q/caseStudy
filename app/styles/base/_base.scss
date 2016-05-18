@@ -92,4 +92,9 @@ html, body {
 }
 .link {
   color: white!important;
+  text-shadow: 1px 1px 1px #FED731;
+  &:hover {
+    transition: all .2s ease-in-out;
+    font-size: 1.15em;
+  }
 }
